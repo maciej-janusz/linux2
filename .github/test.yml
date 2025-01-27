@@ -1,0 +1,7 @@
+name: test
+on: push
+jobs:
+  job:
+    runs-on: macos-latest
+    steps:
+      -run: echo "hello"
