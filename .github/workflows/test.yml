@@ -4,4 +4,4 @@ jobs:
   job:
     runs-on: macos-latest
     steps:
-      -run: echo "hello"
+      - run: echo "hello"
